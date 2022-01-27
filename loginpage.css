@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image:url('4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+
+animation-name: animate;
+animation-direction:alternate-reverse;
+animation-duration: 20s;
+animation-fill-mode: forwards;
+animation-iteration-count: infinite;
+animation-play-state: running;
+animation-timing-function: ease-in-out;
+
+}
+@keyframes animate{
+    0%
+    {
+        background-image: url('2.jpg');
+        background-size: cover;
+    background-position: center;
+    }
+    30%{
+        background-image: url('3.jpg');
+        background-size: cover;
+    background-position: center;
+    }
+    30%
+    {
+        background-image:url('4.jpg');
+        background-size: cover;
+    background-position: center;
+    }
+    90%
+    {
+        background-image: url('1st.jpg');
+        background-size: cover;
+    background-position: center;
+    }
+}
+
+
+
+
+.login-box{
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    border-right:15px solid rgb(202, 25, 25);
+    border-bottom:15px solid  rgb(53, 184, 27);
+    border-left:0 solid  #fff ;
+    border-top: 0 solid #fff;
+    text-transform: uppercase;
+    color: rgb(8, 12, 10);
+    border-style: solid;
+    margin: 8px 0;
+}
+.login-box h1{
+    float: left;
+    font-size: 40px;
+    border-bottom: 9px solid #4caf50;
+    margin-bottom: 30px;
+    border-left: 9px solid rgb(190, 47, 28);
+
+    padding: 13px 0;
+}
+.textbox{
+
+    box-sizing:border-box;
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+   padding: 8px 0;
+   margin: 8px 0;
+   border-bottom: 1px solid #131212;
+}
