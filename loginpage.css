@@ -67,6 +67,7 @@ input{
     outline: none;
     display: block;
     margin: 2px auto;
+}
 .login-box h1{
     float: left;
     font-size: 40px;
