@@ -15,31 +15,20 @@ body{
     transition: 5s;
 
 animation-name: animate;
-animation-direction:alternate-reverse;
-animation-duration: 20s;
-animation-fill-mode: forwards;
-animation-iteration-count: infinite;
-animation-play-state: running;
-animation-timing-function: ease-in-out;
+animation-duration: 5s;
 
 }
 @keyframes animate{
     0%
     {
-        background-image: url('2.jpg');
-        background-size: cover;
-    background-position: center;
+       
     }
     30%{
-        background-image: url('3.jpg');
-        background-size: cover;
-    background-position: center;
+      
     }
     30%
     {
-        background-image:url('4.jpg');
-        background-size: cover;
-    background-position: center;
+        
     }
     90%
     {
@@ -59,22 +48,32 @@ animation-timing-function: ease-in-out;
     left: 50%;
     transform: translate(-50%,-50%);
     border-radius: 10px;
-    border-right:15px solid rgb(202, 25, 25);
-    border-bottom:15px solid  rgb(53, 184, 27);
+    border-right:15px solid #fff;
+    border-bottom:15px solid  #fff;
     border-left:0 solid  #fff ;
     border-top: 0 solid #fff;
     text-transform: uppercase;
     color: rgb(8, 12, 10);
     border-style: solid;
     margin: 8px 0;
+     margin: 8px 0;
+    background: rgb(65, 5, 5);
+    box-shadow: 1px, 2px, 3px rgba(184, 53, 53, 0.87);
 }
+input{
+    border: none;
+    border-bottom: 2px solid rgb(128,0,128);
+    padding: 2px;
+    outline: none;
+    display: block;
+    margin: 2px auto;
 .login-box h1{
     float: left;
     font-size: 40px;
-    border-bottom: 9px solid #4caf50;
+    border-bottom: 9px solid #fff;
     margin-bottom: 30px;
-    border-left: 9px solid rgb(190, 47, 28);
-
+    border-left: 9px solid #fff;
+color: #fff;
     padding: 13px 0;
 }
 .textbox{
@@ -85,5 +84,5 @@ animation-timing-function: ease-in-out;
     font-size: 20px;
    padding: 8px 0;
    margin: 8px 0;
-   border-bottom: 1px solid #131212;
+   border-bottom: 3px solid #fff;
 }
